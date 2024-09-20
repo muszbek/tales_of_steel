@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://core/player/PlayerBehavior.gd" type="Script" id=6]
+
+[node name="PlayerBehavior" type="Node"]
+script = ExtResource( 6 )

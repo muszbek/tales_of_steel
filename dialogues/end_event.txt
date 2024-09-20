@@ -1,0 +1,5 @@
+[
+   {
+      "script":"chapter_finish"
+   }
+]

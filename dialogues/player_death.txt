@@ -1,0 +1,21 @@
+[
+   {
+      "text":"\"YOU COME BEFORE ME...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_crom.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"HAVE YOU SOLVED THE RIDDLE OF STEEL?\""
+   },
+   {
+      "text":"\"NO? ... HAHH!\""
+   },
+   {
+      "text":"\"GET BACK TO THE DIRT, WORM!\""
+   },
+   {
+      "text":"\"PRESS 'E' TO START OVER!\""
+   }
+]

@@ -1,0 +1,89 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://assets/buttons/button_up.png" type="Texture" id=1]
+[ext_resource path="res://assets/buttons/button_up_pressed.png" type="Texture" id=2]
+[ext_resource path="res://ui/ButtonUpRightInvisible.gd" type="Script" id=3]
+[ext_resource path="res://ui/ButtonUpLeftInvisible.gd" type="Script" id=4]
+[ext_resource path="res://ui/ButtonDownLeftInvisible.gd" type="Script" id=5]
+[ext_resource path="res://ui/ButtonDownRightInvisible.gd" type="Script" id=6]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="CapsuleShape2D" id=4]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 6, 6 )
+
+[node name="ArrowButtonPad" type="Node2D" groups=["arrow_button_pad"]]
+
+[node name="ButtonUp" type="TouchScreenButton" parent="."]
+position = Vector2( 15, 1 )
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 1 )
+action = "move_up"
+
+[node name="ButtonRight" type="TouchScreenButton" parent="."]
+position = Vector2( 45, 15 )
+rotation = 1.5708
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 2 )
+action = "move_right"
+
+[node name="ButtonDown" type="TouchScreenButton" parent="."]
+position = Vector2( 31, 45 )
+rotation = 3.14159
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 3 )
+action = "move_down"
+
+[node name="ButtonLeft" type="TouchScreenButton" parent="."]
+position = Vector2( 1, 31 )
+rotation = 4.71239
+normal = ExtResource( 1 )
+pressed = ExtResource( 2 )
+shape = SubResource( 4 )
+action = "move_left"
+
+[node name="ButtonUpRightInvisible" type="TouchScreenButton" parent="."]
+position = Vector2( 31, 3 )
+shape = SubResource( 5 )
+script = ExtResource( 3 )
+
+[node name="ButtonUpLeftInvisible" type="TouchScreenButton" parent="."]
+position = Vector2( 3, 3 )
+shape = SubResource( 5 )
+script = ExtResource( 4 )
+
+[node name="ButtonDownLeftInvisible" type="TouchScreenButton" parent="."]
+position = Vector2( 3, 31 )
+shape = SubResource( 5 )
+script = ExtResource( 5 )
+
+[node name="ButtonDownRightInvisible" type="TouchScreenButton" parent="."]
+position = Vector2( 31, 31 )
+shape = SubResource( 5 )
+script = ExtResource( 6 )
+
+[connection signal="pressed" from="ButtonUpRightInvisible" to="ButtonUpRightInvisible" method="_on_ButtonUpRightInvisible_pressed"]
+[connection signal="released" from="ButtonUpRightInvisible" to="ButtonUpRightInvisible" method="_on_ButtonUpRightInvisible_released"]
+[connection signal="pressed" from="ButtonUpLeftInvisible" to="ButtonUpLeftInvisible" method="_on_ButtonUpRightInvisible_pressed"]
+[connection signal="released" from="ButtonUpLeftInvisible" to="ButtonUpLeftInvisible" method="_on_ButtonUpRightInvisible_released"]
+[connection signal="pressed" from="ButtonDownLeftInvisible" to="ButtonDownLeftInvisible" method="_on_ButtonUpRightInvisible_pressed"]
+[connection signal="released" from="ButtonDownLeftInvisible" to="ButtonDownLeftInvisible" method="_on_ButtonUpRightInvisible_released"]
+[connection signal="pressed" from="ButtonDownRightInvisible" to="ButtonDownRightInvisible" method="_on_ButtonUpRightInvisible_pressed"]
+[connection signal="released" from="ButtonDownRightInvisible" to="ButtonDownRightInvisible" method="_on_ButtonUpRightInvisible_released"]

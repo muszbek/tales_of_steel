@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://core/player/Player.gd" type="Script" id=5]
+[ext_resource path="res://core/Dialogue.tscn" type="PackedScene" id=14]
+[ext_resource path="res://core/FullScreenAnimation.tscn" type="PackedScene" id=18]
+[ext_resource path="res://core/player/PlayerSkin.tscn" type="PackedScene" id=19]
+
+[sub_resource type="RectangleShape2D" id=18]
+extents = Vector2( 7, 8 )
+
+[sub_resource type="RectangleShape2D" id=129]
+extents = Vector2( 7, 8 )
+
+[sub_resource type="RectangleShape2D" id=133]
+extents = Vector2( 7, 8 )
+
+[sub_resource type="RectangleShape2D" id=134]
+extents = Vector2( 7, 8 )
+
+[node name="Player" type="KinematicBody2D" groups=["player"]]
+z_index = 1
+collision_layer = 3
+collision_mask = 3
+collision/safe_margin = 0.001
+script = ExtResource( 5 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+
+[node name="Dialogue" parent="Camera2D" groups=["dialogue"] instance=ExtResource( 14 )]
+
+[node name="FullScreenAnimation" parent="Camera2D" instance=ExtResource( 18 )]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 18 )
+one_way_collision_margin = 0.0
+
+[node name="PlayerBehavior" parent="." instance=ExtResource( 19 )]
+
+[node name="Hurtbox" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource( 129 )
+one_way_collision_margin = 0.0
+
+[node name="Eventbox" type="Area2D" parent="."]
+collision_layer = 576
+collision_mask = 576
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Eventbox"]
+shape = SubResource( 133 )
+
+[node name="Pacificbox" type="Area2D" parent="."]
+collision_layer = 128
+collision_mask = 128
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pacificbox"]
+shape = SubResource( 134 )
+
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_Hurtbox_area_entered"]

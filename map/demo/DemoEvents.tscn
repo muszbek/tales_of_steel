@@ -1,0 +1,32 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://events/Demo/StartEvent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/Demo/BarricadeEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/Demo/RavenEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/Demo/CanyonEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/Demo/ApeEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/Demo/CliffEvent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/EndEvent.tscn" type="PackedScene" id=7]
+
+[node name="DemoEvents" type="Node2D"]
+
+[node name="StartEvent" parent="." instance=ExtResource( 1 )]
+position = Vector2( 76, 17 )
+
+[node name="BarricadeEvent" parent="." instance=ExtResource( 2 )]
+position = Vector2( 992, 0 )
+
+[node name="RavenEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1552, 16 )
+
+[node name="CanyonEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1760, 32 )
+
+[node name="ApeEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2160, -48 )
+
+[node name="CliffEvent" parent="." instance=ExtResource( 6 )]
+position = Vector2( 2400, -48 )
+
+[node name="EndEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( 2800, -464 )

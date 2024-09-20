@@ -1,0 +1,71 @@
+[
+   {
+      "text":"\"Tribesmen of the mountains ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I seek the temple of the Himelayan sages.\""
+   },
+   {
+      "text":"\"The barbarian is our enemy!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"The blood of our leaders is on his hands!\""
+   },
+   {
+      "text":"\"Kill the foreigner!\""
+   },
+   {
+      "text":"\"Kill the foreigner!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_wazuli/portrait_wazuli_0.png",
+         "res://assets/sprites/portraits/portrait_wazuli/portrait_wazuli_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"What the devil?!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"The tabac-leaf smoke has rotten your brains?!\""
+   },
+   {
+      "text":"\"Just show me the path to the temple ...\""
+   },
+   {
+      "text":"\"... and I shall be on my way!\""
+   },
+   {
+      "text":"\"You are not going anywhere!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_wazuli/portrait_wazuli_0.png",
+         "res://assets/sprites/portraits/portrait_wazuli/portrait_wazuli_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Kill the foreigner!\""
+   },
+   {
+      "text":"\"Hahh, come on then, dogs, and bleed!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   }
+]

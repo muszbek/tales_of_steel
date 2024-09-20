@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Caw! Caw!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_0.png",
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_1.png",
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_2.png",
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_3.png",
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_4.png",
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_5.png",
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_6.png",
+         "res://assets/sprites/portraits/portrait_raven/portrait_raven_7.png"
+      ],
+      "side":"right"
+   }
+]

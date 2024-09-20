@@ -1,0 +1,21 @@
+[
+   {
+      "text":"\"Hiding behind your barricades, huh?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"You know this does not stop me!\""
+   },
+   {
+      "text":"\"We shall see.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_wazuli/portrait_wazuli_0.png",
+         "res://assets/sprites/portraits/portrait_wazuli/portrait_wazuli_1.png"
+      ],
+      "side":"right"
+   }
+]

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://core/Dialogue.tscn" type="PackedScene" id=1]
+[ext_resource path="res://map/AfghulistanParallax.tscn" type="PackedScene" id=2]
+[ext_resource path="res://core/player/PlayerCamera.gd" type="Script" id=3]
+[ext_resource path="res://core/FullScreenAnimation.tscn" type="PackedScene" id=4]
+
+[node name="PlayerCamera" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2( 0, -16 )
+current = true
+
+[node name="AfghulistanParallax" parent="Camera2D" instance=ExtResource( 2 )]
+
+[node name="Dialogue" parent="Camera2D" instance=ExtResource( 1 )]
+position = Vector2( -80, -88 )
+
+[node name="FullScreenAnimation" parent="Camera2D" instance=ExtResource( 4 )]

@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Now I need to scale this cliff ahead ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... the temple should be on top of it.\""
+   }
+]
