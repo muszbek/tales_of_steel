@@ -40,3 +40,6 @@ func load_state(dict):
 func load_on_start():
 	var data = game.saved_game.get(get_name())
 	load_state(data)
+
+func is_triggered():
+	return state == states.TRIGGERED

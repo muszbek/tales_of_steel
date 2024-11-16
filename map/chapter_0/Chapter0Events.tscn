@@ -1,0 +1,35 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://events/chapter_0/StartEvent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter_0/JumpEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter_0/HighJumpEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/chapter_0/PictEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter_0/RiverEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter_0/BattleEvent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter_0/ConanEvent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/ScriptEndEvent.tscn" type="PackedScene" id=8]
+
+[node name="Chapter0Events" type="Node2D"]
+
+[node name="StartEvent" parent="." instance=ExtResource( 1 )]
+position = Vector2( -16, 16 )
+
+[node name="JumpEvent" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 16 )
+
+[node name="RiverEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 576, 32 )
+
+[node name="HighJumpEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 64 )
+
+[node name="PictEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 976, 32 )
+
+[node name="BattleEvent" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1232, 16 )
+
+[node name="ConanEvent" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1664, 16 )
+
+[node name="ScriptEndEvent" parent="." instance=ExtResource( 8 )]

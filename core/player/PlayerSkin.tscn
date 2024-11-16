@@ -756,7 +756,7 @@ tracks/2/keys = {
 }
 
 [sub_resource type="RectangleShape2D" id=47]
-extents = Vector2( 7, 4 )
+extents = Vector2( 6, 4 )
 
 [sub_resource type="Animation" id=101]
 length = 0.001
@@ -841,7 +841,7 @@ tracks/1/keys = {
 "values": [ false, true ]
 }
 
-[node name="PlayerBehavior" type="Node2D"]
+[node name="PlayerSkin" type="Node2D"]
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
@@ -864,7 +864,7 @@ collision_layer = 8
 collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackPivot/MeleeHitbox"]
-position = Vector2( 11, 0 )
+position = Vector2( 10, 0 )
 shape = SubResource( 47 )
 
 [node name="InteractPivot" type="Position2D" parent="."]
@@ -874,7 +874,7 @@ collision_layer = 16
 collision_mask = 16
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractPivot/Interactbox"]
-position = Vector2( 11, 0 )
+position = Vector2( 10, 0 )
 shape = SubResource( 47 )
 
 [node name="InteractionPlayer" type="AnimationPlayer" parent="InteractPivot/Interactbox/CollisionShape2D"]

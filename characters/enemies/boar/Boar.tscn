@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://characters/enemies/Enemy.gd" type="Script" id=1]
+[ext_resource path="res://characters/enemies/boar/BoarBehavior.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/enemies/boar/BoarSkin.tscn" type="PackedScene" id=3]
+
+[sub_resource type="CapsuleShape2D" id=5]
+height = 16.0
+
+[sub_resource type="CapsuleShape2D" id=6]
+height = 16.0
+
+[node name="Boar" type="KinematicBody2D" groups=["enemy"]]
+script = ExtResource( 1 )
+hostile = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 4 )
+rotation = 1.5708
+shape = SubResource( 5 )
+
+[node name="LineOfSight" type="RayCast2D" parent="."]
+enabled = true
+cast_to = Vector2( 80, 0 )
+
+[node name="Hurtbox" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2( 0, 4 )
+rotation = 1.5708
+shape = SubResource( 6 )
+
+[node name="BoarBehavior" parent="." instance=ExtResource( 2 )]
+
+[node name="BoarSkin" parent="." instance=ExtResource( 3 )]
+visible = false
+
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_Hurtbox_area_entered"]

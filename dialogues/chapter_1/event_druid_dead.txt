@@ -1,0 +1,34 @@
+[
+   {
+      "text":"\"Hmm... the work is done.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I walk out of this camp unharmed.\""
+   },
+   {
+      "text":"\"The Picts dare not attack me ...\""
+   },
+   {
+      "text":"\"... after having watched me putting down their leader.\""
+   },
+   {
+      "text":"\"That sorcerer was right...\""
+   },
+   {
+      "text":"\"I am done fighting at the frontier.\""
+   },
+   {
+      "text":"\"I shall take up the Hyrkanian on his offer.\""
+   },
+   {
+      "text":"\"See where that job takes me...\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

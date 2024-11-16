@@ -95,6 +95,7 @@ func move_towards_target(target_pos: Vector2):
 	return enemy.move_and_slide(movement_vector, FLOOR)
 
 func should_move_towards_player():
+	if enemy.hostile == enemy.hostility.PASSIVE: return false
 	var target_vector = player.global_position - enemy.global_position
 	if !player.is_on_floor(): return false
 	if abs(target_vector.y) > 1: return false
@@ -111,6 +112,7 @@ func move_animate(velocity: Vector2, facing):
 		enemy.skin.walk_animate(facing)
 
 func attack_when_close_enough():
+	if enemy.hostile == enemy.hostility.PASSIVE: return false
 	if distance_from_player() < ATTACK_DISTANCE: attack()
 
 func attack():

@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"We tried to civilize them ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_frontierman3/portrait_frontierman3_0.png",
+         "res://assets/sprites/portraits/portrait_frontierman3/portrait_frontierman3_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... bargain, negotiate with them ...\""
+   },
+   {
+      "text":"\"... but they are untameable.\""
+   },
+   {
+      "text":"\"They want us out of these lands.\""
+   },
+   {
+      "text":"\"The best we can do is fight them and protect our settlers.\""
+   }
+]

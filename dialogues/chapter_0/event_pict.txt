@@ -1,0 +1,32 @@
+[
+   {
+      "text":"\"Hmmm... a Pict. He seems injured.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_pict/portrait_pict_0.png",
+         "res://assets/sprites/portraits/portrait_pict/portrait_pict_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Well my friend, I better put you out of your misery.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Law of the wilderness... so I was told.\""
+   },
+   {
+      "text":"\"I cannot risk letting you call for your comrades.\""
+   }
+]

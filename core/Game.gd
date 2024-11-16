@@ -1,6 +1,6 @@
 extends Node2D
 
-const LAST_IMPLEMENTED_CHAPTER = 0
+const LAST_IMPLEMENTED_CHAPTER = 2
 
 const START_SCREEN = "res://screens/StartScreen.tscn"
 const TO_BE_CONTINUED_SCREEN = "res://screens/ToBeConinued.tscn"
@@ -11,19 +11,20 @@ var current_chapter
 var saved_game: Dictionary = {}
 
 func _ready():
-#	var screen = load_start_screen()
-	current_chapter_index = 0 #yield(screen, "start_screen_finished")
+	var screen = load_start_screen()
+	current_chapter_index = yield(screen, "start_screen_finished")
 	load_chapter()
 
-#func load_start_screen():
-#	var start_screen_loaded = load(START_SCREEN)
-#	var start_screen_instance = start_screen_loaded.instance()
-#	add_child(start_screen_instance)
-#	return start_screen_instance
+func load_start_screen():
+	var start_screen_loaded = load(START_SCREEN)
+	var start_screen_instance = start_screen_loaded.instance()
+	add_child(start_screen_instance)
+	return start_screen_instance
 
 func load_chapter():
 	saved_game = {}
-	var current_chapter_path = get_demo_chapter_path() #get_chapter_path(current_chapter_index)
+	#var current_chapter_path = get_demo_chapter_path()
+	var current_chapter_path = get_chapter_path(current_chapter_index)
 	var chapter_loaded = load(current_chapter_path)
 	var chapter_instance = chapter_loaded.instance()
 	add_child(chapter_instance)
@@ -52,7 +53,7 @@ func get_demo_chapter_path():
 
 func get_chapter_path(index: int):
 	var i: String = str(index)
-	return "res://map/chapter" + i + "/Chapter" + i + "Loader.tscn"
+	return "res://map/chapter_" + i + "/Chapter" + i + "Loader.tscn"
 
 
 ### CHAPTER SELECTOR API ###

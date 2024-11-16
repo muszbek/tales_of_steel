@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"If you so insist on going, do as you will.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_frontierman1/portrait_frontierman1_0.png",
+         "res://assets/sprites/portraits/portrait_frontierman1/portrait_frontierman1_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I take no responsibility, whatever happens to you.\""
+   },
+   {
+      "text":"\"Pass the barricade and cross the river.\""
+   },
+   {
+      "text":"\"The water is very low these days ...\""
+   },
+   {
+      "text":"\"... you can walk straight through the riverbed.\""
+   },
+   {
+      "text":"\"In the forest hopefully you find the barbarian.\""
+   },
+   {
+      "text":"\"Or he will find you.\""
+   },
+   {
+      "text":"\"Best of luck, Hyrkanian!\""
+   }
+]

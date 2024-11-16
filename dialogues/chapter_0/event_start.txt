@@ -1,0 +1,80 @@
+[
+   {
+      "text":"\"Hail, traveler! We must discuss. Press 'E' (or 'B') to listen.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_frontierman1/portrait_frontierman1_0.png",
+         "res://assets/sprites/portraits/portrait_frontierman1/portrait_frontierman1_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"My name is Tiberias ...\""
+   },
+   {
+      "text":"\"... I am the commanding officer at this outpost.\""
+   },
+   {
+      "text":"\"You are no frontierman.\""
+   },
+   {
+      "text":"\"You look like you hail from the far East.\""
+   },
+   {
+      "text":"\"Who are you ...\""
+   },
+   {
+      "text":"\"... and what business have you at the frontier?\""
+   },
+   {
+      "text":"\"Ulagan, from the Hyrkanian steppes.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I am in search of a certain mercenary serving here.\""
+   },
+   {
+      "text":"\"Right. You came from far away indeed.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_frontierman1/portrait_frontierman1_0.png",
+         "res://assets/sprites/portraits/portrait_frontierman1/portrait_frontierman1_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I have to explain the situation here ...\""
+   },
+   {
+      "text":"\"... before I allow you further.\""
+   },
+   {
+      "text":"\"Here lies the border between Aquilonia ...\""
+   },
+   {
+      "text":"\"... and the land of the Picts.\""
+   },
+   {
+      "text":"\"This outpost here marks the Western edge of civilization.\""
+   },
+   {
+      "text":"\"You venture beyond into the wilderness ...\""
+   },
+   {
+      "text":"\"... and there is no one to protect you.\""
+   },
+   {
+      "text":"\"Savage Picts and wild beasts will prey on you out there.\""
+   },
+   {
+      "text":"\"You have been warned.\""
+   },
+   {
+      "text":"\"You can use the arrow keys or 'WASD' to move around.\""
+   },
+   {
+      "text":"\"Press 'E' (or 'B') to address me, or my comrades here.\""
+   }
+]

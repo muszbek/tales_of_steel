@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://characters/enemies/Wazuli.tscn" type="PackedScene" id=1]
-[ext_resource path="res://characters/enemies/Ape.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/enemies/wazuli/Wazuli.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/enemies/ape/Ape.tscn" type="PackedScene" id=2]
 
 [node name="DemoEnemies" type="Node2D"]
 

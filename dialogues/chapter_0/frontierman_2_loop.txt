@@ -1,0 +1,31 @@
+[
+   {
+      "text":"\"If you venture into Pictland ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_frontierman2/portrait_frontierman2_0.png",
+         "res://assets/sprites/portraits/portrait_frontierman2/portrait_frontierman2_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... you better know how to fight.\""
+   },
+   {
+      "text":"\"Press 'SPACE' (or the button 'A') to attack.\""
+   },
+   {
+      "text":"\"When you meet a Pict, show him no mercy!\""
+   },
+   {
+      "text":"\"As he certainly would not spare you either.\""
+   },
+   {
+      "text":"\"The key to victory ...\""
+   },
+   {
+      "text":"\"... is attacking first with a killing blow.\""
+   },
+   {
+      "text":"\"Be quick to kill, and you may survive the frontier!\""
+   }
+]

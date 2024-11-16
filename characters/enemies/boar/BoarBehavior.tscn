@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/enemies/boar/BoarBehavior.gd" type="Script" id=1]
+
+[node name="BoarBehavior" type="Node" groups=["boar_behavior"]]
+script = ExtResource( 1 )
