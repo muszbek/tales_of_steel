@@ -1,3 +1,26 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/enemies/thug/Thug.tscn" type="PackedScene" id=1]
 
 [node name="Chapter2Enemies" type="Node2D"]
+
+[node name="Thug" parent="." instance=ExtResource( 1 )]
+position = Vector2( -116, 0 )
+facing = 1
+
+[node name="Thug2" parent="." instance=ExtResource( 1 )]
+position = Vector2( -79, 0 )
+facing = 1
+
+[node name="Thug3" parent="." instance=ExtResource( 1 )]
+position = Vector2( -48, 0 )
+facing = 1
+
+[node name="Thug4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 54, 0 )
+
+[node name="Thug5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 105, 0 )
+
+[node name="Thug6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 140, 0 )

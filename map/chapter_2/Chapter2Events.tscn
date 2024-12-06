@@ -1,3 +1,22 @@
-[gd_scene format=2]
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://events/chapter_2/StartEvent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter_2/ThugsAttackEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter_2/UlaganEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/ScriptEndEvent.tscn" type="PackedScene" id=4]
 
 [node name="Chapter2Events" type="Node2D"]
+
+[node name="StartEvent" parent="." instance=ExtResource( 1 )]
+position = Vector2( -10, 16 )
+
+[node name="ThugAttackEvent" parent="." instance=ExtResource( 2 )]
+position = Vector2( 13, 16 )
+
+[node name="ThugAttackEvent2" parent="." instance=ExtResource( 2 )]
+position = Vector2( -17, 16 )
+
+[node name="UlaganEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1152, 16 )
+
+[node name="ScriptEndEvent" parent="." instance=ExtResource( 4 )]

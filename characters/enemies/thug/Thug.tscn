@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://characters/enemies/Enemy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/enemies/thug/ThugSkin.tscn" type="PackedScene" id=2]
+
+[node name="Thug" groups=["thug"] instance=ExtResource( 1 )]
+hostile = 0
+
+[node name="PictSkin" parent="." index="4" instance=ExtResource( 2 )]

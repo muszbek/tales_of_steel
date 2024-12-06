@@ -126,3 +126,6 @@ func death():
 	state = states.DEAD
 	enemy.disable_collisions()
 	enemy.skin.death_animate(enemy.facing)
+
+func become_hostile():
+	enemy.hostile = enemy.hostility.HOSTILE

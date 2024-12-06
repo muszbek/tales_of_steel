@@ -1,0 +1,117 @@
+[
+   {
+      "text":"\"After the frontier rations I finally stuffed myself ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... with good Aquilonian food and wine.\""
+   },
+   {
+      "text":"\"Now it's time to find the Hyrkanian ...\""
+   },
+   {
+      "text":"\"... and get out of this country ...\""
+   },
+   {
+      "text":"\"Leaving already, partner?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_0.png",
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Remember me?\""
+   },
+   {
+      "text":"\"That caravan, that we robbed together?\""
+   },
+   {
+      "text":"\"Petrov.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"You took more for yourself than what was agreed on.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_0.png",
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I did all the fighting while you lot covered.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I earned every bit of my plunder with my blood!\""
+   },
+   {
+      "text":"\"You hurt our feelings, partner.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_0.png",
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You owe us!\""
+   },
+   {
+      "text":"\"How stupid you must be to mug *me* ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+
+   },
+   {
+      "text":"\"... out of all people?!\""
+   },
+   {
+      "text":"\"It's about the message, partner.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_0.png",
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"If we let this pass, what becomes of my reputation?\""
+   },
+   {
+      "text":"\"Your reputation?! Hahhahahaha ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+
+   },
+   {
+      "text":"\"Get out of my way, Petrov!\""
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_0.png",
+         "res://assets/sprites/portraits/portrait_thug/portrait_thug_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Skin him, boys!\""
+   }
+]

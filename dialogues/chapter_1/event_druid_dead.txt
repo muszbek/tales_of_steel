@@ -17,7 +17,7 @@
       "text":"\"... after having watched me putting down their leader.\""
    },
    {
-      "text":"\"That sorcerer was right...\""
+      "text":"\"By Crom, that sorcerer was right...\""
    },
    {
       "text":"\"I am done fighting at the frontier.\""
