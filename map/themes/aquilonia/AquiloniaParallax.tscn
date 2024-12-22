@@ -95,7 +95,6 @@ motion_mirroring = Vector2( 320, 0 )
 [node name="Sprite" type="AnimatedSprite" parent="ParallaxLayer1"]
 position = Vector2( 80, 0 )
 frames = SubResource( 6 )
-frame = 1
 playing = true
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
@@ -105,6 +104,7 @@ motion_mirroring = Vector2( 320, 0 )
 [node name="Sprite" type="AnimatedSprite" parent="ParallaxLayer2"]
 position = Vector2( 80, 0 )
 frames = SubResource( 9 )
+frame = 1
 playing = true
 
 [node name="Galley" parent="ParallaxLayer2" instance=ExtResource( 7 )]
@@ -112,16 +112,18 @@ position = Vector2( -82, 28 )
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
 motion_scale = Vector2( 0.5, 0 )
-motion_mirroring = Vector2( 1280, 0 )
+motion_mirroring = Vector2( 960, 0 )
 
 [node name="Sprite0" type="AnimatedSprite" parent="ParallaxLayer3"]
 position = Vector2( 80, 0 )
 frames = SubResource( 12 )
+frame = 1
 playing = true
 
 [node name="Sprite1" type="AnimatedSprite" parent="ParallaxLayer3"]
 position = Vector2( 80, 0 )
 frames = SubResource( 17 )
+frame = 1
 playing = true
 offset = Vector2( 320, 0 )
 
@@ -129,8 +131,3 @@ offset = Vector2( 320, 0 )
 position = Vector2( 80, 0 )
 texture = ExtResource( 6 )
 offset = Vector2( 640, 0 )
-
-[node name="Sprite3" type="Sprite" parent="ParallaxLayer3"]
-position = Vector2( 80, 0 )
-texture = ExtResource( 6 )
-offset = Vector2( 960, 0 )

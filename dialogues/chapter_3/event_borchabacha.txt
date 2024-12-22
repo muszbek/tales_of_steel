@@ -1,0 +1,179 @@
+[
+   {
+      "text":"\"Borcha-Bacha, you old weasel!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"So this is where you holed up!\""
+   },
+   {
+      "text":"\"You made it! Very good!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_0.png",
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I was told you have a job offer for me.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Indeed. You are to take my group of rogues ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_0.png",
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... sail to Xapur island at the South of the Vilayet Sea ...\""
+   },
+   {
+      "text":"\"... and retrieve an artifact for me.\""
+   },
+   {
+      "text":"\"This is it? A robbery heist?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"More like treasure hunting.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_0.png",
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"It is some kind of ceremonial dagger.\""
+   },
+   {
+      "text":"\"Hidden in an old temple on the island.\""
+   },
+   {
+      "text":"\"A dagger, hmm? What is so special about it?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"There might be many daggers there.\""
+   },
+   {
+      "text":"\"Oh it is no ordinary dagger ... you will recognize it.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_0.png",
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"It is not bound by time.\""
+   },
+   {
+      "text":"\"It should stand out in those ancient ruins.\""
+   },
+   {
+      "text":"\"Or so my client told me.\""
+   },
+   {
+      "text":"\"Sounds like sorcery...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"What's the catch? Why do you need me?\""
+   },
+   {
+      "text":"\"Well... the island is uncharted.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_0.png",
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Nobody goes there.\""
+   },
+   {
+      "text":"\"The local fishermen say it is haunted by demons.\""
+   },
+   {
+      "text":"\"I wanted to hire the most daring thieves I know.\""
+   },
+   {
+      "text":"\"Right...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"My client offered a fortune.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_0.png",
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"More than you ever made by thieving and robbery.\""
+   },
+   {
+      "text":"\"Bring that dagger to me and we share the reward.\""
+   },
+   {
+      "text":"\"And what if the client doesn't pay up?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"If the dagger is as special as he claims ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_0.png",
+         "res://assets/sprites/portraits/portrait_borchabacha/portrait_borchabacha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... we should be able to fence it for a hefty sum.\""
+   },
+   {
+      "text":"\"I see.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Very well.\""
+   },
+   {
+      "text":"\"We shall set sail whenever your rogues are ready.\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

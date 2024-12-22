@@ -6,4 +6,4 @@
 [node name="Thug" groups=["thug"] instance=ExtResource( 1 )]
 hostile = 0
 
-[node name="PictSkin" parent="." index="4" instance=ExtResource( 2 )]
+[node name="ThugSkin" parent="." index="4" instance=ExtResource( 2 )]

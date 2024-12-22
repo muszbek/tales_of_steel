@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://characters/npc/kozaki/Kozak.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/npc/kozaki/Borchabacha.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/npc/other/UlaganFollowing.tscn" type="PackedScene" id=3]
+
+[node name="Chapter3Chars" type="Node2D"]
+
+[node name="UlaganFollowing" parent="." instance=ExtResource( 3 )]
+position = Vector2( -49, 0 )
+z_index = 1
+
+[node name="Kozak" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1216, 0 )
+
+[node name="Borchabacha" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1360, 0 )
