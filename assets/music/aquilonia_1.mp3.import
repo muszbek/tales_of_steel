@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/aquilonia_1.mp3-e9c6f215cb927838c17ef7ea3fc078f3.mp3str"
+
+[deps]
+
+source_file="res://assets/music/aquilonia_1.mp3"
+dest_files=[ "res://.import/aquilonia_1.mp3-e9c6f215cb927838c17ef7ea3fc078f3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

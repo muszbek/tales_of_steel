@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/turan_1.mp3-f74f2453180412710e5e5366b43349f8.mp3str"
+
+[deps]
+
+source_file="res://assets/music/turan_1.mp3"
+dest_files=[ "res://.import/turan_1.mp3-f74f2453180412710e5e5366b43349f8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/frontier_1.mp3-8a4624f7d2bdcd5e7e036e65e7588406.mp3str"
+
+[deps]
+
+source_file="res://assets/music/frontier_1.mp3"
+dest_files=[ "res://.import/frontier_1.mp3-8a4624f7d2bdcd5e7e036e65e7588406.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
