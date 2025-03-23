@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"The lotus scent is clouding my senses ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "script":"lotus_075"
+   },
+   {
+      "text":"\"... I have to tread lightly on ...\""
+   }
+]

@@ -6,11 +6,11 @@ onready var animation_player = $AnimatedSprite/AnimationPlayer
 onready var interaction_player = $InteractPivot/Interactbox/CollisionShape2D/InteractionPlayer
 
 func _ready():
-	yield(owner, "ready")
-	player = owner
-	player.skin = self
 	disable_hitbox()
 	disable_interactbox()
+
+func init(owner):
+	player = owner
 
 func launch_to_air():
 	player.behavior.launch_to_air()

@@ -5,7 +5,9 @@ var static_position
 var detached = false
 
 func _ready():
-	yield(owner, "ready")
+	pass
+
+func init(owner):
 	player = owner
 	load_parallax()
 

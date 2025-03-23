@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"By Crom ... I cannot keep my head clear ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "script":"lotus_050"
+   },
+   {
+      "text":"\"... But I have to keep pushing on to that dagger ...\""
+   }
+]

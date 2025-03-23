@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"The dagger ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... right there on that altar ...\""
+   },
+   {
+      "script":"lotus_025"
+   },
+   {
+      "text":"\"... just a few steps more ...\""
+   }
+]

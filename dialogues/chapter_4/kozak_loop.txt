@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Let us find that dagger ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kozak/portrait_kozak_0.png",
+         "res://assets/sprites/portraits/portrait_kozak/portrait_kozak_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and get the hell out of here.\""
+   }
+]

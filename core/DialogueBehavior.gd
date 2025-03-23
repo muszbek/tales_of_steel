@@ -14,10 +14,10 @@ func _ready():
 	var _err = connect("dialogue", dialogue, "do_dialogue")
 	dialogue.connect("dialogue_started", self, "dialogue_started")
 	dialogue.connect("dialogue_finished", self, "dialogue_finished")
-	yield(owner, "ready")
+
+func init(owner):
 	player = owner
 	states = player.behavior.states
-	
 
 func death_dialogue():
 	emit_signal("dialogue", DIALOGUE_DEATH)

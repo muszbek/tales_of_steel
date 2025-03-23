@@ -1,6 +1,6 @@
 extends Node
 
-enum states {MOVE, ATTACK, JUMP, AIR, DEAD}
+enum states {MOVE, ATTACK, JUMP, AIR, DEAD, SCRIPT}
 
 const SPEED = 48
 const JUMP_SPEED = 2
@@ -22,10 +22,13 @@ var controls_on = true
 var jump_potential = JUMP_MAX_POTENTIAL ## number of frames you can keep going up
 var finished_jumping = false ## to prevent jumping again mid-air
 
+var speed_factor = 1.0
+
 func _ready():
-	yield(owner, "ready")
+	pass
+
+func init(owner):
 	player = owner
-	player.skin.disable_hitbox()
 
 func process(delta):
 	match state:
@@ -44,6 +47,8 @@ func process(delta):
 			var _actually_moved = move_in_air(delta)
 			player.skin.air_animate(player.facing)
 			maybe_land()
+		states.SCRIPT:
+			pass
 
 func is_action_pressed(action):
 	return Input.is_action_pressed(action) and controls_on
@@ -62,9 +67,9 @@ func facing_from_input():
 
 func move_by_input(input_velocity: Vector2):
 	if is_action_pressed("move_right"):
-		input_velocity.x += SPEED
+		input_velocity.x += (SPEED * speed_factor)
 	if is_action_pressed("move_left"):
-		input_velocity.x -= SPEED
+		input_velocity.x -= (SPEED * speed_factor)
 	
 	return input_velocity
 
@@ -159,3 +164,6 @@ func move_animate(velocity: Vector2, facing):
 		player.skin.idle_animate(facing)
 	else:
 		player.skin.walk_animate(facing)
+
+func script_state():
+	state = states.SCRIPT

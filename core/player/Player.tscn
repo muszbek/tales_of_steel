@@ -32,8 +32,8 @@ shape = SubResource( 2 )
 
 [node name="DialogueBehavior" parent="." instance=ExtResource( 2 )]
 
-[node name="PlayerSkin" parent="." instance=ExtResource( 4 )]
-
 [node name="PlayerSave" parent="." instance=ExtResource( 7 )]
+
+[node name="PlayerSkin" parent="." instance=ExtResource( 4 )]
 
 [connection signal="area_entered" from="Hurtbox" to="." method="_on_Hurtbox_area_entered"]

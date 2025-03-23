@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"More corpses ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... I must be going the right way.\""
+   }
+]

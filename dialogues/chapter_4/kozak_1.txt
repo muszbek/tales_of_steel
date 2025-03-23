@@ -1,0 +1,42 @@
+[
+   {
+      "text":"\"There is another ship in the bay.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kozak/portrait_kozak_0.png",
+         "res://assets/sprites/portraits/portrait_kozak/portrait_kozak_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Maybe ours is not the only band ...\""
+   },
+   {
+      "text":"\"... hired to find that dagger.\""
+   },
+   {
+      "text":"\"We might still be in time to claim it first ...\""
+   },
+   {
+      "text":"\"... but what happened to the crew?\""
+   },
+   {
+      "text":"\"Why is their ship still here?\""
+   },
+   {
+      "text":"\"Are you afraid?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_kozak/portrait_kozak_0.png",
+         "res://assets/sprites/portraits/portrait_kozak/portrait_kozak_1.png"
+      ],
+      "side":"right"
+   }
+]

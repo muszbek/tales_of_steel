@@ -141,7 +141,7 @@
       "text":"\"Bring that dagger to me and we share the reward.\""
    },
    {
-      "text":"\"And what if the client doesn't pay up?\"",
+      "text":"\"And what if the client does not pay up?\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
          "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"

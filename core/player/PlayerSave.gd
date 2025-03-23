@@ -5,9 +5,10 @@ onready var game = get_tree().get_nodes_in_group("game")[-1]
 var player
 
 func _ready():
-	yield(owner, "ready")
+	pass
+
+func init(owner):
 	player = owner
-	player.save_behavior = self
 	load_on_start()
 
 func save_state():

@@ -4,14 +4,18 @@ enum directions {LEFT, RIGHT}
 
 export var facing = directions.RIGHT
 
-onready var skin = $PlayerSkin
 onready var camera = $PlayerCamera
 onready var behavior = $PlayerBehavior
 onready var dialogue_behavior = $DialogueBehavior
 onready var save_behavior = $PlayerSave
+onready var skin = $PlayerSkin
 
 func _ready():
-	pass # Replace with function body.
+	camera.init(self)
+	behavior.init(self)
+	dialogue_behavior.init(self)
+	save_behavior.init(self)
+	skin.init(self)
 
 func _process(delta):
 	behavior.process(delta)

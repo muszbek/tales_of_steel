@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Looks like I found one of our competitors ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... he was recently killed in combat.\""
+   }
+]

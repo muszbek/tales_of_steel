@@ -1,0 +1,37 @@
+[
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_islander/portrait_islander_0.png",
+         "res://assets/sprites/portraits/portrait_islander/portrait_islander_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"What are you looking at?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Are you guarding that stupid dagger?\""
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_islander/portrait_islander_0.png",
+         "res://assets/sprites/portraits/portrait_islander/portrait_islander_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Lead me to it, demons!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   }
+]

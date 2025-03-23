@@ -1,0 +1,58 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://events/chapter_4/StartEvent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter_4/CorpseEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter_4/IslanderEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/chapter_4/MoreCorpseEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter_4/MoreIslanderEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter_4/LotusEvent1.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter_4/LotusEvent2.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/chapter_4/LotusEffectEvent.tscn" type="PackedScene" id=8]
+[ext_resource path="res://events/chapter_4/LotusEvent3.tscn" type="PackedScene" id=9]
+[ext_resource path="res://events/chapter_4/LotusEvent4.tscn" type="PackedScene" id=10]
+[ext_resource path="res://events/chapter_4/EndEvent.tscn" type="PackedScene" id=11]
+[ext_resource path="res://events/ScriptEndEvent.tscn" type="PackedScene" id=12]
+[ext_resource path="res://events/chapter_4/MusicEvent4.tscn" type="PackedScene" id=13]
+
+[node name="Chapter4Events" type="Node2D"]
+
+[node name="MusicEvent" parent="." instance=ExtResource( 13 )]
+position = Vector2( -16, 16 )
+
+[node name="StartEvent" parent="." instance=ExtResource( 1 )]
+position = Vector2( -8, 16 )
+
+[node name="CorpseEvent" parent="." instance=ExtResource( 2 )]
+position = Vector2( 384, 16 )
+
+[node name="IslanderEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 0 )
+
+[node name="MoreCorpseEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 944, 0 )
+
+[node name="MoreIslanderEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1376, -16 )
+
+[node name="LotusEffectEvent" parent="." instance=ExtResource( 8 )]
+
+[node name="LotusEvent1" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1792, -16 )
+only_once = false
+
+[node name="LotusEvent2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 2112, -32 )
+only_once = false
+
+[node name="LotusEvent3" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2560, -48 )
+only_once = false
+
+[node name="LotusEvent4" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2832, -48 )
+only_once = false
+
+[node name="EndEvent" parent="." instance=ExtResource( 11 )]
+position = Vector2( 2960, -48 )
+
+[node name="ScriptEndEvent" parent="." instance=ExtResource( 12 )]

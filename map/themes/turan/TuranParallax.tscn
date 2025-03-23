@@ -44,7 +44,7 @@ animations = [ {
 "speed": 1.0
 } ]
 
-[node name="AquiloniaParallax" type="ParallaxBackground"]
+[node name="TuranParallax" type="ParallaxBackground"]
 
 [node name="ParallaxLayer0" type="ParallaxLayer" parent="."]
 motion_scale = Vector2( 0, 0 )
@@ -78,11 +78,13 @@ offset = Vector2( -320, 0 )
 [node name="Sprite0" type="AnimatedSprite" parent="ParallaxLayer3"]
 position = Vector2( 80, 0 )
 frames = SubResource( 12 )
+frame = 1
 playing = true
 
 [node name="Sprite1" type="AnimatedSprite" parent="ParallaxLayer3"]
 position = Vector2( 80, 0 )
 frames = SubResource( 17 )
+frame = 1
 playing = true
 offset = Vector2( 320, 0 )
 
