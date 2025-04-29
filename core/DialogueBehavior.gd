@@ -20,8 +20,11 @@ func init(owner):
 	states = player.behavior.states
 
 func death_dialogue():
-	emit_signal("dialogue", DIALOGUE_DEATH)
-	
+	if player.death_dialogue:
+		emit_signal("dialogue", player.death_dialogue)
+	else:
+		emit_signal("dialogue", DIALOGUE_DEATH)
+
 func dialogue_started():
 	player.behavior.controls_on = false
 

@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://characters/enemies/nightmare/Nightmare.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/enemies/tentacle/Tentacle.tscn" type="PackedScene" id=2]
+
+[node name="Chapter5Enemies" type="Node2D"]
+
+[node name="Nightmare" parent="." instance=ExtResource( 1 )]
+position = Vector2( 290, 0 )
+max_distance = 48
+
+[node name="Nightmare2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 664, -16 )
+
+[node name="Tentacle" parent="." instance=ExtResource( 2 )]
+position = Vector2( 832, -32 )
+
+[node name="Tentacle2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1024, -16 )
+
+[node name="Nightmare3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1408, -48 )
+
+[node name="Nightmare4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1448, -48 )
+
+[node name="Tentacle3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1720, -64 )
+
+[node name="Nightmare5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1792, -192 )
+facing = 1
+
+[node name="Tentacle4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1872, -320 )
+
+[node name="Nightmare6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1728, -352 )

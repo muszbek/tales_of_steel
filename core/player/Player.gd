@@ -3,6 +3,7 @@ extends KinematicBody2D
 enum directions {LEFT, RIGHT}
 
 export var facing = directions.RIGHT
+export var death_dialogue = ""
 
 onready var camera = $PlayerCamera
 onready var behavior = $PlayerBehavior

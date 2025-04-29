@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"He is going to make it ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Keep coming up, barbarian!\""
+   }
+]

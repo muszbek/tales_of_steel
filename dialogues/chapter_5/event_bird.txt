@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"You are a loyal bird, hehh!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"You follow me even to my nightmares...\""
+   }
+]

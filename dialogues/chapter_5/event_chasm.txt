@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"A deep bottomless chasm, huh?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Now this is scary ...\""
+   }
+]

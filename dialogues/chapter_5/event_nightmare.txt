@@ -1,0 +1,32 @@
+[
+   {
+      "text":"\"By Crom, what are you?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Stuff from my nightmares?\""
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_nightmare/portrait_nightmare_0.png",
+         "res://assets/sprites/portraits/portrait_nightmare/portrait_nightmare_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You are uglier than anything I have seen ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... but not fearsome enough!\""
+   }
+]

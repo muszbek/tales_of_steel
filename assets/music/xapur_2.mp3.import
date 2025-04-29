@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/xapur_2.mp3-5746ff20ca5b1bc6a73fd89192deba2e.mp3str"
+
+[deps]
+
+source_file="res://assets/music/xapur_2.mp3"
+dest_files=[ "res://.import/xapur_2.mp3-5746ff20ca5b1bc6a73fd89192deba2e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

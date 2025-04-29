@@ -1,0 +1,117 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://misc/InvisibleWall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://misc/CameraDetachZone3x.tscn" type="PackedScene" id=2]
+[ext_resource path="res://misc/DeathZone3x.tscn" type="PackedScene" id=3]
+[ext_resource path="res://misc/CameraDetachZone2x.tscn" type="PackedScene" id=4]
+[ext_resource path="res://misc/DeathZone2x.tscn" type="PackedScene" id=5]
+
+[node name="Chapter5Fields" type="Node2D"]
+
+[node name="InvisibleWall" parent="." instance=ExtResource( 1 )]
+position = Vector2( -96, 16 )
+
+[node name="CameraDetachZone3x" parent="." instance=ExtResource( 2 )]
+position = Vector2( 552, 33 )
+
+[node name="DeathZone3x" parent="." instance=ExtResource( 3 )]
+position = Vector2( 552, 97 )
+
+[node name="CameraDetachZone2x" parent="." instance=ExtResource( 4 )]
+position = Vector2( 736, 33 )
+
+[node name="DeathZone2x" parent="." instance=ExtResource( 5 )]
+position = Vector2( 736, 97 )
+
+[node name="CameraDetachZone3x2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 920, 33 )
+
+[node name="DeathZone3x2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 920, 97 )
+
+[node name="CameraDetachZone3x3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1320, 17 )
+
+[node name="DeathZone3x3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1320, 81 )
+
+[node name="CameraDetachZone3x4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1496, 1 )
+
+[node name="CameraDetachZone3x5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1544, 1 )
+
+[node name="CameraDetachZone3x6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1592, 1 )
+
+[node name="CameraDetachZone3x7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1640, 1 )
+
+[node name="CameraDetachZone3x8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1688, 1 )
+
+[node name="CameraDetachZone3x9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1736, 1 )
+
+[node name="CameraDetachZone3x10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1784, 1 )
+
+[node name="DeathZone3x4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1496, 65 )
+
+[node name="DeathZone3x5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1544, 65 )
+
+[node name="DeathZone3x6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1592, 65 )
+
+[node name="DeathZone3x7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1640, 65 )
+
+[node name="DeathZone3x8" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1688, 65 )
+
+[node name="DeathZone3x9" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1736, 65 )
+
+[node name="DeathZone3x10" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1784, 65 )
+
+[node name="CameraDetachZone3x11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1960, 1 )
+
+[node name="CameraDetachZone3x12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2008, 1 )
+
+[node name="CameraDetachZone3x13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2056, 1 )
+
+[node name="CameraDetachZone3x14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2104, 1 )
+
+[node name="CameraDetachZone3x15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2152, 1 )
+
+[node name="CameraDetachZone3x16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2200, 1 )
+
+[node name="DeathZone3x11" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1960, 65 )
+
+[node name="DeathZone3x12" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2008, 65 )
+
+[node name="DeathZone3x13" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2056, 65 )
+
+[node name="DeathZone3x14" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2104, 65 )
+
+[node name="DeathZone3x15" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2152, 65 )
+
+[node name="DeathZone3x16" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2200, 65 )
+
+[node name="InvisibleWall2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2160, -624 )
