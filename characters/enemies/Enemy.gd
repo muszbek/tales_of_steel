@@ -12,6 +12,8 @@ onready var los = $LineOfSight
 var skin
 var behavior
 
+signal dead
+
 func _ready():
 	$LineOfSight.set_cast_to(Vector2(max_distance, 0))
 

@@ -1,0 +1,19 @@
+[
+   {
+      "text":"\"He really had the dagger... I claim it at last.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"But why is it so important?\""
+   },
+   {
+      "text":"\"Before I get answers, I have to get cured ...\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

@@ -1,0 +1,59 @@
+[
+   {
+      "text":"\"The camp... Borcha-Bacha... is this your doing?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_assassin/portrait_assassin_0.png",
+         "res://assets/sprites/portraits/portrait_assassin/portrait_assassin_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You're not even armed ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... did you kill them with your bare hands?\""
+   },
+   {
+      "text":"\"The dark arts, yes.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_assassin/portrait_assassin_0.png",
+         "res://assets/sprites/portraits/portrait_assassin/portrait_assassin_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Foolish assassin... you got your dagger...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... and now I'm going to take it back from you!\""
+   },
+   {
+      "text":"\"What are you still waiting here for?\""
+   },
+   {
+      "text":"\"Loose ends.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_assassin/portrait_assassin_0.png",
+         "res://assets/sprites/portraits/portrait_assassin/portrait_assassin_1.png"
+      ],
+      "side":"right"
+   }
+]

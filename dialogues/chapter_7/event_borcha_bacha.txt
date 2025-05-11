@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"Damn... that's Borcha-Bacha lying here.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Someone came for that dagger ...\""
+   },
+   {
+      "text":"\"... and now I'm never getting paid!\""
+   },
+   {
+      "text":"\"I must continue ...\""
+   },
+   {
+      "text":"\"... maybe I find more clues for what happened here.\""
+   }
+]

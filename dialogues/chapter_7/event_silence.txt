@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Hmm... it is too silent here ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... where is everyone?\""
+   }
+]

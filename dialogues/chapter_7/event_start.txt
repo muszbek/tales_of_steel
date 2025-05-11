@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"By Crom, the Hyrkanians were right ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... I have not fully recovered from the lotus ...\""
+   },
+   {
+      "text":"\"... my body feels numb ... sluggish ...\""
+   },
+   {
+      "text":"\"... but no time for this now!\""
+   },
+   {
+      "text":"\"I am here to claim my due payment!\""
+   }
+]
