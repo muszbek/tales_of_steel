@@ -1,0 +1,148 @@
+[
+   {
+      "text":"\"What did you find in the camp?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I got the dagger ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... from an assassin sent to kill us.\""
+   },
+   {
+      "text":"\"He got Borcha-Bacha and everyone else.\""
+   },
+   {
+      "text":"\"He was waiting for me.\""
+   },
+   {
+      "text":"\"I suspected something is amiss ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... and you let me go there alone to investigate, right?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"For that matter...\""
+   },
+   {
+      "text":"\"Why did you bring me back from the island?\""
+   },
+   {
+      "text":"\"I'm not getting paid either, you know?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I figured with you by my side ...\""
+   },
+   {
+      "text":"\"... I will have a better chance to claim my reward.\""
+   },
+   {
+      "text":"\"Hahh, honor among thieves ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Thank you, Ulagan, for saving me.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I shall pay you back. I give my word.\""
+   },
+   {
+      "text":"\"I'm counting on it.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_0.png",
+         "res://assets/sprites/portraits/portrait_ulagan/portrait_ulagan_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I want to track down who wants us dead for this dagger...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"But I'm not sure I have the strength.\""
+   },
+   {
+      "text":"\"The lotus is still eating my flesh away.\""
+   },
+   {
+      "text":"\"Just as you said, healer.\""
+   },
+   {
+      "text":"\"Heal me!\""
+   },
+   {
+      "text":"\"Hrm, I'm afraid I cannot.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_peleg/portrait_peleg_0.png",
+         "res://assets/sprites/portraits/portrait_peleg/portrait_peleg_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"The spell is too strong for my skills.\""
+   },
+   {
+      "text":"\"It is your very soul that is afflicted ...\""
+   },
+   {
+      "text":"\"... and so your soul has to be cleansed.\""
+   },
+   {
+      "text":"\"Muster your remaining strength ...\""
+   },
+   {
+      "text":"\"... and go scale the Himelayan mountains to the South-East.\""
+   },
+   {
+      "text":"\"There in the divine heights you shall find ...\""
+   },
+   {
+      "text":"\"... the temple of the mountain sages.\""
+   },
+   {
+      "text":"\"Their wisdom is unmatched ...\""
+   },
+   {
+      "text":"\"... and only they can cure you now.\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

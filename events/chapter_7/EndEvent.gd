@@ -10,7 +10,7 @@ var json_resource: String = ""
 
 func _ready():
 	var _err = connect("dialogue", dialogue, "do_dialogue")
-	assassin.connect("assassin_dead", self, "trigger")
+	assassin.connect("dead", self, "trigger")
 
 func trigger():
 	json_resource = DIALOGUE

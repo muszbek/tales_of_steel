@@ -1,6 +1,6 @@
 [
    {
-      "text":"\"Damn... that's Borcha-Bacha lying here.\"",
+      "text":"\"By Crom... that's Borcha-Bacha lying here.\"",
       "portrait":[
          "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
          "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
