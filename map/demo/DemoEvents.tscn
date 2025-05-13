@@ -11,7 +11,7 @@
 [node name="DemoEvents" type="Node2D"]
 
 [node name="StartEvent" parent="." instance=ExtResource( 1 )]
-position = Vector2( 76, 17 )
+position = Vector2( 76, 16 )
 
 [node name="BarricadeEvent" parent="." instance=ExtResource( 2 )]
 position = Vector2( 992, 0 )

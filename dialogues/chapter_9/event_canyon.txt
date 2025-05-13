@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"I have reached the canyon...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I am able to jump through the ravines ...\""
+   },
+   {
+      "text":"\"... but the tribesmen would not follow me accross.\""
+   }
+]

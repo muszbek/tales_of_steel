@@ -1,0 +1,22 @@
+[
+   {
+      "text":"\"I have arrived to Afghulistan ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... land of the Wazuli tribe ...\""
+   },
+   {
+      "text":"\"... the Himelayan mountains tower above me.\""
+   },
+   {
+      "text":"\"I shall make my presence known to the Wazuli ...\""
+   },
+   {
+      "text":"\"... and ask for free passage.\""
+   }
+]

@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"By Crom, they are hostile ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... and who was that voice?\""
+   },
+   {
+      "text":"\"It seems I have to cut my way through to the temple.\""
+   }
+]

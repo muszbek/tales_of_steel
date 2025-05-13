@@ -1,0 +1,21 @@
+[
+   {
+      "text":"\"Rooarrrgh!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_ape/portrait_ape_0.png",
+         "res://assets/sprites/portraits/portrait_ape/portrait_ape_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"By Crom...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"What kind of creatures guard that temple?\""
+   }
+]
