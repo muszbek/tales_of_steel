@@ -1,0 +1,41 @@
+[
+   {
+      "text":"\"These snowy wastelands...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "script":"start_snow"
+   },
+   {
+      "text":"\"... the berzerkers of Vanaheim ...\""
+   },
+   {
+      "text":"\"Wait! This never happened!\""
+   },
+   {
+      "text":"\"Yes, the depths of your soul remember ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... events that you have yet to experience.\""
+   },
+   {
+      "text":"\"The arrow of time has little meaning here.\""
+   },
+   {
+      "text":"\"Then I shall move on.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   }
+]

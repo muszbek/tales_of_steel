@@ -1,0 +1,21 @@
+[
+   {
+      "text":"\"The Aquilonians I slayed that day...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I don't remember their faces.\""
+   },
+   {
+      "text":"\"Shadows from your past. Carry on, barbarian!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   }
+]

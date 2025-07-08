@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/cimmeria_1.mp3-4740db7212ed630b5fd4cae7fa58b698.mp3str"
+
+[deps]
+
+source_file="res://assets/music/cimmeria_1.mp3"
+dest_files=[ "res://.import/cimmeria_1.mp3-4740db7212ed630b5fd4cae7fa58b698.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

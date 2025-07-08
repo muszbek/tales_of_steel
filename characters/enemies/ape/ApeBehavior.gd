@@ -52,7 +52,7 @@ func call_physics_process(delta):
 		states.ATTACK:
 			pass
 		states.DEAD:
-			pass
+			if should_move_corpse(): move_in_air(delta)
 
 func is_player_in_sight() -> bool:
 	ape.los.look_at(player.global_position)
@@ -109,6 +109,9 @@ func move_tovards_base():
 	target = start_pos
 	face_towards_target(target)
 	jump(ape.facing)
+
+func should_move_corpse():
+	return ape.global_position.y < start_pos.y
 
 func has_reached_target(target_pos: Vector2):
 	return (target_pos - ape.global_position).length() < 4

@@ -1,0 +1,35 @@
+[
+   {
+      "text":"\"I see your mind at the top of the world ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"stop_snow"
+   },
+   {
+      "text":"\"I have heard this voice before! Who are you?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"If you want answers come meet me ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... in Vendhya, in the city of Jhelai!\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

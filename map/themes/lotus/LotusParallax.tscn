@@ -149,7 +149,7 @@ motion_mirroring = Vector2( 320, 0 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="ParallaxLayer1"]
 frames = SubResource( 2 )
-frame = 5
+frame = 17
 playing = true
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="."]

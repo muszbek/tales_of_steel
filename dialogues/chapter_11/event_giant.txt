@@ -1,0 +1,38 @@
+[
+   {
+      "text":"\"Is this where my path leads to?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"This is neither your past nor your future!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Your inner enemy stands before you ...\""
+   },
+   {
+      "text":"\"... right here in this moment!\""
+   },
+   {
+      "text":"\"You know what you have to do!\""
+   },
+   {
+      "text":"\"Slay the frost giant!\""
+   },
+   {
+      "text":"\"And slay it I shall!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   }
+]

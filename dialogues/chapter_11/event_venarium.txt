@@ -1,0 +1,24 @@
+[
+   {
+      "text":"\"These barricades... the battlements... the fort...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"This scene is also from my past.\""
+   },
+   {
+      "text":"\"The storming of Venarium. My first real battle.\""
+   },
+   {
+      "text":"\"Yes, your past achievements, remember your power!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   }
+]

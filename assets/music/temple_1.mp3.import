@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/temple_1.mp3-99ee87300cf297d20e78fe4b72b10ce2.mp3str"
+
+[deps]
+
+source_file="res://assets/music/temple_1.mp3"
+dest_files=[ "res://.import/temple_1.mp3-99ee87300cf297d20e78fe4b72b10ce2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

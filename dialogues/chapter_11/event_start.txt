@@ -1,0 +1,27 @@
+[
+   {
+      "text":"\"I know this place...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"This is my homeland. Cimmeria.\""
+   },
+   {
+      "text":"\"Yes, barbarian...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"To regain your essence ...\""
+   },
+   {
+      "text":"\"... you need to remember your roots.\""
+   }
+]

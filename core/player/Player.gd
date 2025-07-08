@@ -31,3 +31,6 @@ func on_detach_camera():
 
 func get_current_map():
 	return get_tree().get_nodes_in_group("map")[-1]
+
+func is_alive():
+	return behavior.state != behavior.states.DEAD

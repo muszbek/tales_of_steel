@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://misc/InvisibleWall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://misc/DeathZone1x.tscn" type="PackedScene" id=2]
+[ext_resource path="res://misc/DeathZone2x.tscn" type="PackedScene" id=3]
+
+[node name="Chapter11Fields" type="Node2D"]
+
+[node name="InvisibleWall" parent="." instance=ExtResource( 1 )]
+position = Vector2( -96, 16 )
+
+[node name="DeathZone1x" parent="." instance=ExtResource( 2 )]
+position = Vector2( 840, -15 )
+
+[node name="DeathZone2x" parent="." instance=ExtResource( 3 )]
+position = Vector2( 912, -15 )

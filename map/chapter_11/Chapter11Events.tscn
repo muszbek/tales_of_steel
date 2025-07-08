@@ -1,0 +1,45 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://events/chapter_11/StartEvent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://events/chapter_11/PitEvent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://events/chapter_11/VenariumEvent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://events/chapter_11/AquiloniansEvent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://events/chapter_11/BerzerkersEvent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://events/chapter_11/MusicEvent11Start.tscn" type="PackedScene" id=6]
+[ext_resource path="res://events/chapter_11/MusicEvent11Main.tscn" type="PackedScene" id=7]
+[ext_resource path="res://events/chapter_11/SnowEffectEvent.tscn" type="PackedScene" id=8]
+[ext_resource path="res://events/chapter_11/GiantEvent.tscn" type="PackedScene" id=9]
+[ext_resource path="res://events/chapter_11/VoiceEvent.tscn" type="PackedScene" id=10]
+[ext_resource path="res://events/ScriptEndEvent.tscn" type="PackedScene" id=11]
+
+[node name="Chapter11Events" type="Node2D"]
+
+[node name="ScriptEndEvent" parent="." instance=ExtResource( 11 )]
+
+[node name="StartEvent" parent="." instance=ExtResource( 1 )]
+position = Vector2( -8, 16 )
+
+[node name="PitEvent" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320, 32 )
+
+[node name="VenariumEvent" parent="." instance=ExtResource( 3 )]
+position = Vector2( 808, 0 )
+
+[node name="AquiloniansEvent" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1088, -48 )
+
+[node name="BerzerkersEvent" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1664, 0 )
+
+[node name="MusicEvent11Start" parent="." instance=ExtResource( 6 )]
+
+[node name="MusicEvent11Main" parent="." instance=ExtResource( 7 )]
+position = Vector2( 816, -16 )
+
+[node name="SnowEffectEvent" parent="." instance=ExtResource( 8 )]
+
+[node name="GiantEvent" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2400, -32 )
+
+[node name="VoiceEvent" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2720, -32 )
