@@ -1,0 +1,113 @@
+[
+   {
+      "text":"\"Awaken, barbarian!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"It worked, wise man!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I feel stronger than ever!\""
+   },
+   {
+      "text":"\"Yes, your spirit is stubborn and resilient.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You have defeated the lotus sickness for good.\""
+   },
+   {
+      "text":"\"I feel like nothing can stand in my way now!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Yes, introspection is a powerful tool ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... to conquer one's inner maladies.\""
+   },
+   {
+      "text":"\"What else did you see in your dream?\""
+   },
+   {
+      "text":"\"I heard a voice. A treacherous voice...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"My instincts tell me it is the voice of an enemy.\""
+   },
+   {
+      "text":"\"It told me to go to Vendhya.\""
+   },
+   {
+      "text":"\"Yes... a wonderfull country ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... beyond the Southern feet of these mountains.\""
+   },
+   {
+      "text":"\"You look determined.\""
+   },
+   {
+      "text":"\"I am, wise man.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"It may have to do with a mysterious artifact I carry...\""
+   },
+   {
+      "text":"\"This is my only lead to get answers.\""
+   },
+   {
+      "text":"\"Very well.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_0.png",
+         "res://assets/sprites/portraits/portrait_sage/portrait_sage_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"May the twilight sun ...\""
+   },
+   {
+      "text":"\"... shine upon your journies, barbarian!\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]
