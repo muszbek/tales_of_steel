@@ -15,6 +15,7 @@ func finish_attack():
 	giant.behavior.finish_attack()
 
 func finish_recover():
+	idle_animate()
 	giant.behavior.finish_recover()
 
 func start_death_animate():
