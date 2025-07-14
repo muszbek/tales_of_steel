@@ -39,18 +39,14 @@ func idle_animate(facing):
 func death_animate(facing):
 	if facing == enemy.directions.LEFT:
 		animation_player.play("death_left")
-		sprite.position = Vector2(2, 0)
 	if facing == enemy.directions.RIGHT:
 		animation_player.play("death_right")
-		sprite.position = Vector2(-2, 0)
 
 func dead_animate(facing):
 	if facing == enemy.directions.LEFT:
 		sprite.play("dead_left")
-		sprite.position = Vector2(2, 0)
 	if facing == enemy.directions.RIGHT:
 		sprite.play("dead_right")
-		sprite.position = Vector2(-2, 0)
 
 func start_attack(facing):
 	if facing == enemy.directions.LEFT:
