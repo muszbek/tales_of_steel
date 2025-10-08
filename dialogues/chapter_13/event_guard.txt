@@ -1,0 +1,26 @@
+[
+   {
+      "text":"\"Halt! The Devi is not to be disturbed!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_0.png",
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Let me through, I have to speak with her!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Negative, Master Khemsha's orders!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_0.png",
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_1.png"
+      ],
+      "side":"right"
+   }
+]

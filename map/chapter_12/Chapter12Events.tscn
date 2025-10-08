@@ -11,5 +11,5 @@
 [node name="StartEvent" parent="." instance=ExtResource( 2 )]
 position = Vector2( -8, 16 )
 
-[node name="MusicEvent10" parent="." instance=ExtResource( 3 )]
+[node name="MusicEvent12" parent="." instance=ExtResource( 3 )]
 TITLE = "res://assets/music/temple_2.mp3"

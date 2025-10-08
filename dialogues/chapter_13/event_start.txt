@@ -1,0 +1,156 @@
+[
+   {
+      "text":"\"Respected merchant, tell me ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... what's new in the city of Jhelai?\""
+   },
+   {
+      "text":"\"*Respected*? That would be an overstatement...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_0.png",
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... but I appreciate your tone, stranger.\""
+   },
+   {
+      "text":"\"I will tell you what I know.\""
+   },
+   {
+      "text":"\"Times are difficult since King Arjun died.\""
+   },
+   {
+      "text":"\"Nobody expected this to happen, he was so young ...\""
+   },
+   {
+      "text":"\"... he suddenly came down with an unknown sickness.\""
+   },
+   {
+      "text":"\"His sister, the Devi is next in line ...\""
+   },
+   {
+      "text":"\"... as the rightful heir of Vendhya, the Sapphire Star ...\""
+   },
+   {
+      "text":"\"... but she locked herself in the royal palace ...\""
+   },
+   {
+      "text":"\"... she has not presented herself for the succession.\""
+   },
+   {
+      "text":"\"At the same time the mercenary lord Mohsen ...\""
+   },
+   {
+      "text":"\"... sailed here from Iranistan ...\""
+   },
+   {
+      "text":"\"... his soldiers roam the city unchallenged.\""
+   },
+   {
+      "text":"\"Do you suspect foul play?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Indeed ... there are rumors that somehow ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_0.png",
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... the magicians of the Black Circle are behind it.\""
+   },
+   {
+      "text":"\"Few believe it though, they never meddle in politics.\""
+   },
+   {
+      "text":"\"In any case it's all too suspicious.\""
+   },
+   {
+      "text":"\"All Vendhya is holding its breath. War is coming.\""
+   },
+   {
+      "text":"\"Plenty business for a sellsword like yourself, eh?\""
+   },
+   {
+      "text":"\"My business is with a sorcerer, to be honest.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Tell me more about this sorcery stuff.\""
+   },
+   {
+      "text":"\"Are you insane?!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_0.png",
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"What business can you possibly have with magicians?!\""
+   },
+   {
+      "text":"\"Revenge. I have been cheated by one of them.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"You can lose a lot more when dealing with magicians.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_0.png",
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"It is too late to turn back now.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Tell me how I find them.\""
+   },
+   {
+      "text":"\"Well, I don't know much, the Black Circle is very secretive ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_0.png",
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... only the royal family has access to them.\""
+   },
+   {
+      "text":"\"I'm off to the royal palace then. Thank you.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   }
+]

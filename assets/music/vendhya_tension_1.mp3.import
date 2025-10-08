@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/vendhya_tension_1.mp3-f19a2fa3401759d3c4a1a8890b4c5025.mp3str"
+
+[deps]
+
+source_file="res://assets/music/vendhya_tension_1.mp3"
+dest_files=[ "res://.import/vendhya_tension_1.mp3-f19a2fa3401759d3c4a1a8890b4c5025.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

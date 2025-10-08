@@ -1,0 +1,146 @@
+[
+   {
+      "text":"\"Your Highness, my ascension is imminent.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"It is time for you to step back ...\""
+   },
+   {
+      "text":"\"... and yield power to Mohsen.\""
+   },
+   {
+      "text":"\"Never! Vendhya ruled by foreign mercenaries?!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You cannot make everyone bend to your will!\""
+   },
+   {
+      "text":"\"There your Highness is mistaken.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"One way or another, everyone ends up serving me.\""
+   },
+   {
+      "script":"turn_left"
+   },
+   {
+      "text":"\"Just like our barbarian friend here!\""
+   },
+   {
+      "text":"\"That ugly statue behind... what is it?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Nice of you to join us!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"But you killed these palace guards on your way ...\""
+   },
+   {
+      "text":"\"... how crude.\""
+   },
+   {
+      "text":"\"Do we know each other?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Ah yes, we have talked ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Thank you for bringing me the dagger!\""
+   },
+   {
+      "text":"\"You could have just paid for it, sorcerer slime!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I will be emperor soon ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... I have no time for such nonsense.\""
+   },
+   {
+      "text":"\"But very well, it is riches that you want?\""
+   },
+   {
+      "text":"\"I might have use for such a resourceful brute.\""
+   },
+   {
+      "text":"\"After you have sent your assassins on us?!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I will cut out your forked tongue!\""
+   },
+   {
+      "text":"\"Oh, you understand nothing.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha_real/portrait_khemsha_real_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"*Now you will hand me over that dagger, slowly.*\""
+   },
+   {
+      "text":"\"Do not look into his eyes!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_shocked/portrait_devi_shocked_0.png",
+         "res://assets/sprites/portraits/portrait_devi_shocked/portrait_devi_shocked_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"He is hypnotizing you!\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

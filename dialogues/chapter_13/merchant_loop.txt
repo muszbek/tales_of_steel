@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Be careful with the Iranistani mercenaries!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_0.png",
+         "res://assets/sprites/portraits/portrait_merchant/portrait_metchant_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"They seize everyone on the streets at night!\""
+   },
+   {
+      "text":"\"Good luck!\""
+   }
+]

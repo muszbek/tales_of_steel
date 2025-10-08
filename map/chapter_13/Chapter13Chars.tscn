@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://characters/npc/vendhyan/Merchant.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/npc/Raven.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/npc/vendhyan/Devi.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/npc/other/Khemsha.tscn" type="PackedScene" id=4]
+
+[node name="Chapter13Chars" type="Node2D"]
+
+[node name="Merchant" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 16 )
+
+[node name="Raven" parent="." instance=ExtResource( 2 )]
+position = Vector2( 672, 0 )
+z_index = -1
+
+[node name="Devi" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1880, -144 )
+
+[node name="Khemsha" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1856, -144 )
+facing = 1
+active = true

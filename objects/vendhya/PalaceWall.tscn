@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprites/objects/vendhya/palace_interior_wall.png" type="Texture" id=1]
+
+[node name="PalaceWall" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 8, -64 )
+texture = ExtResource( 1 )

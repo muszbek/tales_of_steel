@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"Rrawwwrrr!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_panther/portrait_panther_0.png",
+         "res://assets/sprites/portraits/portrait_panther/portrait_panther_1.png"
+      ],
+      "side":"right"
+   }
+]

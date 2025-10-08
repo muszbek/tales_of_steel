@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"I have reached the palace walls.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Over that hedge I can jump through.\""
+   },
+   {
+      "text":"\"Surely it is guarded from the inside...\""
+   }
+]

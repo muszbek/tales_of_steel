@@ -1,0 +1,10 @@
+[
+   {
+      "text":"\"Intruder!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_0.png",
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_1.png"
+      ],
+      "side":"right"
+   }
+]

@@ -1,0 +1,592 @@
+[gd_scene load_steps=75 format=2]
+
+[ext_resource path="res://assets/sprites/human/acolyte/acolyte_attack_right.png" type="Texture" id=1]
+[ext_resource path="res://assets/sprites/human/acolyte/acolyte_idle_left.png" type="Texture" id=2]
+[ext_resource path="res://assets/sprites/human/acolyte/acolyte_attack_left.png" type="Texture" id=3]
+[ext_resource path="res://assets/sprites/human/thug/thug_template_die_short_right.png" type="Texture" id=4]
+[ext_resource path="res://assets/sprites/human/wazuli/savage_template_dead_left.png" type="Texture" id=5]
+[ext_resource path="res://characters/enemies/EnemyPrimitives.gd" type="Script" id=6]
+[ext_resource path="res://assets/sprites/human/thug/thug_template_die_short_left.png" type="Texture" id=7]
+[ext_resource path="res://assets/sprites/human/acolyte/acolyte_idle_right.png" type="Texture" id=8]
+[ext_resource path="res://assets/sprites/human/acolyte/acolyte_walk_left.png" type="Texture" id=9]
+[ext_resource path="res://assets/sprites/human/wazuli/savage_template_dead_right.png" type="Texture" id=10]
+[ext_resource path="res://assets/sprites/human/acolyte/acolyte_walk_right.png" type="Texture" id=11]
+
+[sub_resource type="AtlasTexture" id=156]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=157]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=158]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 64, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=159]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 96, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=160]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 128, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=161]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=162]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=163]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=164]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 64, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=165]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 96, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=166]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 128, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=167]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=45]
+atlas = ExtResource( 10 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=144]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=145]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=146]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 64, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=147]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 96, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=148]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 128, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=149]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=150]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=151]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=152]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 64, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=153]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 96, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=154]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 128, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=155]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=168]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=169]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=170]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=171]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=172]
+atlas = ExtResource( 8 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=173]
+atlas = ExtResource( 8 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=174]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=175]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=176]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 64, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=177]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 96, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=178]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 128, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=179]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=180]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 192, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=181]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 224, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=182]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 256, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=183]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=184]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 320, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=185]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 352, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=186]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=187]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=188]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 64, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=189]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 96, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=190]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 128, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=191]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=192]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 192, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=193]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 224, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=194]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 256, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=195]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 288, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=196]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 320, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=197]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 352, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 156 ), SubResource( 157 ), SubResource( 158 ), SubResource( 159 ), SubResource( 160 ), SubResource( 161 ) ],
+"loop": true,
+"name": "attack_left",
+"speed": 6.0
+}, {
+"frames": [ SubResource( 162 ), SubResource( 163 ), SubResource( 164 ), SubResource( 165 ), SubResource( 166 ), SubResource( 167 ) ],
+"loop": true,
+"name": "attack_right",
+"speed": 6.0
+}, {
+"frames": [ SubResource( 26 ) ],
+"loop": true,
+"name": "dead_left",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 45 ) ],
+"loop": true,
+"name": "dead_right",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 144 ), SubResource( 145 ), SubResource( 146 ), SubResource( 147 ), SubResource( 148 ), SubResource( 149 ) ],
+"loop": true,
+"name": "death_left",
+"speed": 6.0
+}, {
+"frames": [ SubResource( 150 ), SubResource( 151 ), SubResource( 152 ), SubResource( 153 ), SubResource( 154 ), SubResource( 155 ) ],
+"loop": true,
+"name": "death_right",
+"speed": 6.0
+}, {
+"frames": [ SubResource( 168 ), SubResource( 169 ) ],
+"loop": true,
+"name": "default",
+"speed": 2.0
+}, {
+"frames": [ SubResource( 170 ), SubResource( 171 ) ],
+"loop": true,
+"name": "idle_left",
+"speed": 2.0
+}, {
+"frames": [ SubResource( 172 ), SubResource( 173 ) ],
+"loop": true,
+"name": "idle_right",
+"speed": 2.0
+}, {
+"frames": [ SubResource( 174 ), SubResource( 175 ), SubResource( 176 ), SubResource( 177 ), SubResource( 178 ), SubResource( 179 ), SubResource( 180 ), SubResource( 181 ), SubResource( 182 ), SubResource( 183 ), SubResource( 184 ), SubResource( 185 ) ],
+"loop": true,
+"name": "walk_left",
+"speed": 12.0
+}, {
+"frames": [ SubResource( 186 ), SubResource( 187 ), SubResource( 188 ), SubResource( 189 ), SubResource( 190 ), SubResource( 191 ), SubResource( 192 ), SubResource( 193 ), SubResource( 194 ), SubResource( 195 ), SubResource( 196 ), SubResource( 197 ) ],
+"loop": true,
+"name": "walk_right",
+"speed": 12.0
+} ]
+
+[sub_resource type="Animation" id=36]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ "attack_left" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../AttackPivot:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../AttackPivot/MeleeHitbox/CollisionShape2D:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=34]
+resource_name = "attack_left"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "attack_left" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../AttackPivot:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../AttackPivot/MeleeHitbox/CollisionShape2D:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ true, false, true ]
+}
+tracks/4/type = "method"
+tracks/4/path = NodePath("..")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.6 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "finish_attack"
+} ]
+}
+
+[sub_resource type="Animation" id=66]
+resource_name = "attack_right"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "attack_right" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../AttackPivot:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 180.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../AttackPivot/MeleeHitbox/CollisionShape2D:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ true, false, true ]
+}
+tracks/4/type = "method"
+tracks/4/path = NodePath("..")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.6 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "finish_attack"
+} ]
+}
+
+[sub_resource type="Animation" id=35]
+resource_name = "death_left"
+step = 0.166667
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "death_left" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.166667, 0.333333, 0.5, 0.666667, 0.833333 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5 ]
+}
+tracks/2/type = "method"
+tracks/2/path = NodePath("..")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 1 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "start_dead_animate"
+} ]
+}
+
+[sub_resource type="Animation" id=67]
+resource_name = "death_right"
+step = 0.166667
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "death_right" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.166667, 0.333333, 0.5, 0.666667, 0.833333 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5 ]
+}
+tracks/2/type = "method"
+tracks/2/path = NodePath("..")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 1 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "start_dead_animate"
+} ]
+}
+
+[sub_resource type="RectangleShape2D" id=33]
+extents = Vector2( 6, 4 )
+
+[node name="AcolyteSkin" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 5 )
+animation = "attack_left"
+playing = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite"]
+anims/RESET = SubResource( 36 )
+anims/attack_left = SubResource( 34 )
+anims/attack_right = SubResource( 66 )
+anims/death_left = SubResource( 35 )
+anims/death_right = SubResource( 67 )
+
+[node name="AttackPivot" type="Position2D" parent="."]
+position = Vector2( 0, 3 )
+
+[node name="MeleeHitbox" type="Area2D" parent="AttackPivot"]
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackPivot/MeleeHitbox"]
+position = Vector2( -10, 0 )
+shape = SubResource( 33 )
+disabled = true

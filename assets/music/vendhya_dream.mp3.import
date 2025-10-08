@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/vendhya_dream.mp3-45b4ac568dfd956cb1044ade38bfe89d.mp3str"
+
+[deps]
+
+source_file="res://assets/music/vendhya_dream.mp3"
+dest_files=[ "res://.import/vendhya_dream.mp3-45b4ac568dfd956cb1044ade38bfe89d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

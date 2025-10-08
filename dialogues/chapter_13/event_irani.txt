@@ -1,0 +1,13 @@
+[
+   {
+      "text":"\"Hey! You there! There is a curfew in effect!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_irani/portrait_irani_0.png",
+         "res://assets/sprites/portraits/portrait_irani/portrait_irani_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You are under arrest!\""
+   }
+]
