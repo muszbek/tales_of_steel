@@ -1,0 +1,21 @@
+[
+   {
+      "text":"\"*Give me the dagger now!*\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_0.png",
+         "res://assets/sprites/portraits/portrait_khemsha/portrait_khemsha_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"... Huh? ...\""
+   }
+]

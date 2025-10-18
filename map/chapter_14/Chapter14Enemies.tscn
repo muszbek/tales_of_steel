@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://characters/enemies/nightmare/Nightmare.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/enemies/void/Void.tscn" type="PackedScene" id=2]
+
+[node name="Chapter14Enemies" type="Node2D"]
+
+[node name="Nightmare" parent="." instance=ExtResource( 1 )]
+position = Vector2( 441, 0 )
+max_distance = 48
+
+[node name="Nightmare2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 656, 0 )
+
+[node name="Nightmare3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1024, -48 )
+
+[node name="Void" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1407, 0 )
+
+[node name="Void2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1600, -16 )
+
+[node name="Void3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2240, -48 )
+
+[node name="Void4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2560, -48 )
+
+[node name="Void5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2928, 0 )

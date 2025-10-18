@@ -1,0 +1,152 @@
+[
+   {
+      "text":"\"BEHOLD, MORTAL, MY TRUE FORM.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_0.png",
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I HAVE FELT THE PRESENCE OF YOUR MIND ...\""
+   },
+   {
+      "text":"\"... AGAIN AND AGAIN, IN THE ASTRAL PLANES.\""
+   },
+   {
+      "text":"\"A STRONG MIND.\""
+   },
+   {
+      "text":"\"I HAVE FINALLY MADE CONTACT WITH YOU.\""
+   },
+   {
+      "text":"\"What are you?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"YOU CAN CALL ME YOG-KASHA.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_0.png",
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"I AM AN ANCIENT BEING, THE LAST OF MY KIND ...\""
+   },
+   {
+      "text":"\"... I WANDER BETWEEN THE OUTSIDE WORLDS.\""
+   },
+   {
+      "text":"\"What do you want from me?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I OFFER A PACT.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_0.png",
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"WE HAVE A COMMON ENEMY.\""
+   },
+   {
+      "text":"\"HE IS ASSAULTING YOUR MIND AT THIS MOMENT.\""
+   },
+   {
+      "text":"\"The sorcerer?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"HE ENSLAVED ME ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_0.png",
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... LOCKED ME INSIDE A MATERIAL BODY.\""
+   },
+   {
+      "text":"\"HE AIMS TO USE MY BLOOD ...\""
+   },
+   {
+      "text":"\"... TO CHANNEL INTO A TWISTED RITUAL.\""
+   },
+   {
+      "text":"\"HIS LUST FOR POWER KNOWS NO BOUNDS.\""
+   },
+   {
+      "text":"\"What do you propose?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"THERE IS AN INSTRUMENT THAT CAN CUT AN OPENING ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_0.png",
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... BETWEEN THE MATERIAL AND THE ASTRAL PLANES.\""
+   },
+   {
+      "text":"\"IT IS THE KEY TO ACCESS MY BLOOD.\""
+   },
+   {
+      "text":"\"The dagger!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"YOU MUST ACCESS IT FIRST, BEFORE THE MAGICIAN.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_0.png",
+         "res://assets/sprites/portraits/portrait_yog/portrait_yog_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"AND I SHALL BE FREE.\""
+   },
+   {
+      "text":"\"I AID YOU BY SHIELDING YOUR MIND FROM THE MAGICIAN ...\""
+   },
+   {
+      "text":"\"... WHILE YOU CARRY OUT YOUR QUEST TO DEFEAT HIM.\""
+   },
+   {
+      "text":"\"Very well, ancient being. We have a pact.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "script":"chapter_finish"
+   }
+]
