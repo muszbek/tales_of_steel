@@ -1,0 +1,288 @@
+[
+   {
+      "text":"\"Get a hold of yourself!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Uungggh ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Barbarian, do you hear me?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Yes ... I was somewhere else ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"What is going on?\""
+   },
+   {
+      "text":"\"You were hypnotized just now.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Ahh the sorcerer...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"And weren't there a statue right here?\""
+   },
+   {
+      "text":"\"They both ... disappeared.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Disappeared? What happened while I was out?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"He tried to take control of your mind.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Just like he took control of my own guards ...\""
+   },
+   {
+      "text":"\"... to keep me captive in this palace.\""
+   },
+   {
+      "text":"\"Yet somehow ... you were different.\""
+   },
+   {
+      "text":"\"You did not obey him ... you just stood there.\""
+   },
+   {
+      "text":"\"Obedience ... is not in my nature.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"So it seems. He looked frustrated.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"He wanted you to give him a dagger.\""
+   },
+   {
+      "text":"\"In the end he just took it from you by hand ...\""
+   },
+   {
+      "text":"\"... and then poof. Gone.\""
+   },
+   {
+      "text":"\"Ahh the dagger ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_0.png",
+         "res://assets/sprites/portraits/portrait_conan_grin/portrait_conan_grin_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"I cannot believe I'm losing it again!\""
+   },
+   {
+      "text":"\"I have to find him!\""
+   },
+   {
+      "text":"\"Tell me everything you know about him!\""
+   },
+   {
+      "text":"\"Well ... his name is Khemsha ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... he is a low ranking member of the Black Circle ...\""
+   },
+   {
+      "text":"\"... he wants to be emperor of the world ...\""
+   },
+   {
+      "text":"\"... I think he was just waiting for this dagger.\""
+   },
+   {
+      "text":"\"As if now he had got what he needed.\""
+   },
+   {
+      "text":"\"That's about all I know.\""
+   },
+   {
+      "text":"\"But many things are still unclear ...\""
+   },
+   {
+      "text":"\"... Such as where does the Black Circle stand now ...\""
+   },
+   {
+      "text":"\"Can we hope for their help or they are our enemies now?\""
+   },
+   {
+      "script":"guard_start_moving"
+   },
+   {
+      "text":"\"Your majesty! Are you alright?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_0.png",
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"My guards! Who do you serve?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Your majesty! With our lives!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_0.png",
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Who is the Sapphire Star?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Your majesty!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_0.png",
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"So now with Khemsha gone ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... looks like the spell is broken ...\""
+   },
+   {
+      "text":"\"... maybe we can take back control over the palace!\""
+   },
+   {
+      "text":"\"Where is Lord Bhodendra now?\""
+   },
+   {
+      "text":"\"He is being kept in the observatory ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_0.png",
+         "res://assets/sprites/portraits/portrait_vendhyan_guard/portrait_vendhyan_guard_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"... by Khemsha's acolytes.\""
+   },
+   {
+      "script":"turn_left"
+   },
+   {
+      "text":"\"Barbarian! Now we have a chance to retake the palace!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Help me with this, and I shall help you find Khemsha!\""
+   },
+   {
+      "text":"\"Are you with me?\""
+   },
+   {
+      "text":"\"Very well. What is next?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"Lord Bhodendra is my trusted advisor.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Go to the observatory and free him.\""
+   },
+   {
+      "text":"\"Together we will find answers.\""
+   },
+   {
+      "text":"\"Tell him these words to gain his trust:\""
+   },
+   {
+      "text":"\"*The Sapphire Star does not rise alone.*\""
+   },
+   {
+      "text":"\"He will understand.\""
+   },
+   {
+      "text":"\"In the meantime I shall rally the remaining guards.\""
+   }
+]

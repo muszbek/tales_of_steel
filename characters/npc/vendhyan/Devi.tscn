@@ -50,7 +50,7 @@ animations = [ {
 [sub_resource type="RectangleShape2D" id=8]
 extents = Vector2( 10, 16 )
 
-[node name="Devi" instance=ExtResource( 2 )]
+[node name="Devi" groups=["devi"] instance=ExtResource( 2 )]
 script = ExtResource( 1 )
 facing = 0
 active = false
@@ -60,3 +60,9 @@ frames = SubResource( 7 )
 
 [node name="CollisionShape2D" parent="InteractionBox" index="0"]
 shape = SubResource( 8 )
+
+[node name="Timer" type="Timer" parent="." index="2"]
+wait_time = 0.1
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

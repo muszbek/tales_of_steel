@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://characters/npc/vendhyan/GuardMoving.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/npc/vendhyan/GuardInert.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/npc/vendhyan/Devi.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/npc/vendhyan/Bhodendra.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/npc/vendhyan/HighAcolyte.tscn" type="PackedScene" id=5]
+
+[node name="Chapter15Chars" type="Node2D"]
+
+[node name="Devi" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1872, -144 )
+DIALOGUE_LOOP = "res://dialogues/chapter_15/devi_loop.txt"
+active = true
+
+[node name="GuardMoving" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1944, -144 )
+DIALOGUE_LOOP = "res://dialogues/chapter_15/guard_loop.txt"
+
+[node name="GuardInert" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1924, -144 )
+
+[node name="Bhodendra" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2352, -720 )
+
+[node name="HighAcolyte" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2376, -720 )

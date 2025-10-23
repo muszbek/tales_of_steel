@@ -20,6 +20,8 @@ func handle_script(script_name):
 		turn(directions.LEFT)
 	elif script_name == SCRIPT_TURN_RIGHT:
 		turn(directions.RIGHT)
+	else:
+		return
 	
 	$Timer.start()
 

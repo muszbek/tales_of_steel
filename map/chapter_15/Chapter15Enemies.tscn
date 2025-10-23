@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/enemies/acolyte/Acolyte.tscn" type="PackedScene" id=1]
+
+[node name="Chapter15Enemies" type="Node2D"]
+
+[node name="Acolyte" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2232, -320 )
+
+[node name="Acolyte2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2256, -448 )
+
+[node name="Acolyte3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2304, -448 )
+
+[node name="Acolyte4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2304, -576 )
+
+[node name="Acolyte5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2240, -576 )
+
+[node name="Acolyte6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2216, -720 )

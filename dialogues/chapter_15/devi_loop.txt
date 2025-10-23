@@ -1,0 +1,16 @@
+[
+   {
+      "text":"\"Go up to the observatory and free Lord Bhodendra!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_0.png",
+         "res://assets/sprites/portraits/portrait_devi_talk/portrait_devi_talk_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Remember:\""
+   },
+   {
+      "text":"\"*The Sapphire Star does not rise alone.*\""
+   }
+]

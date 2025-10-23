@@ -1,0 +1,117 @@
+[
+   {
+      "text":"\"Are you Lord Bhodendra?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "script":"activate_bhodendra"
+   },
+   {
+      "text":"\"The royal woman sent me.\""
+   },
+   {
+      "text":"\"The Sapphire Star does not rise again.\""
+   },
+   {
+      "script":"turn_right"
+   },
+   {
+      "text":"\"Ha! Do you hear that, high acolyte?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_0.png",
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Who's the captive now?\""
+   },
+   {
+      "text":"\"...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_acolyte/portrait_acolyte_0.png",
+         "res://assets/sprites/portraits/portrait_acolyte/portrait_acolyte_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"turn_left"
+   },
+   {
+      "text":"\"Is the Devi safe?\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_0.png",
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Yes. The sorcerer has fled.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_0.png",
+         "res://assets/sprites/portraits/portrait_conan_talk/portrait_conan_talk_1.png"
+      ],
+      "side":"left"
+   },
+   {
+      "text":"\"We are taking back the palace.\""
+   },
+   {
+      "text":"\"Finally ...\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_0.png",
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"Do not hurt this one.\""
+   },
+   {
+      "text":"\"We will need him alive to find out Khemsha's next move.\""
+   },
+   {
+      "text":"\"You will get nothing from me!\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_acolyte/portrait_acolyte_0.png",
+         "res://assets/sprites/portraits/portrait_acolyte/portrait_acolyte_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "script":"turn_right"
+   },
+   {
+      "text":"\"I am an adept of the Inner Circle!\""
+   },
+   {
+      "text":"\"My mind is an impenetrable fortress!\""
+   },
+   {
+      "text":"\"I will send for the physicians' guild.\"",
+      "portrait":[
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_0.png",
+         "res://assets/sprites/portraits/portrait_bhodendra/portrait_bhodendra_1.png"
+      ],
+      "side":"right"
+   },
+   {
+      "text":"\"You might protect your secrets ...\""
+   },
+   {
+      "text":"\"... with powerful magicks ...\""
+   },
+   {
+      "text":"\"... but the surgeons are masters of flesh and pain.\""
+   },
+   {
+      "text":"\"They shall make you talk.\""
+   },
+   {
+      "script":"chapter_finish"
+   }
+]

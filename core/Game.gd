@@ -1,6 +1,6 @@
 extends Node2D
 
-const LAST_IMPLEMENTED_CHAPTER = 14
+const LAST_IMPLEMENTED_CHAPTER = 15
 
 const START_SCREEN = "res://screens/StartScreen.tscn"
 const TO_BE_CONTINUED_SCREEN = "res://screens/ToBeConinued.tscn"
